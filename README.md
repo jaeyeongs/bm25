@@ -4,7 +4,7 @@ IR 검색 알고리즘인 BM25를 활용하여 KorQuAD Dataset에서 주어진 �
 
 BM25 알고리즘에 대한 자세한 내용은 [여기](https://github.com/jaeyeongs/research-development/tree/main/NLP/IR/metric/BM25 "BM25")에서 확인 가능합니다.
   
-## Algorithm
+## Algorithm Performance
 
 ||**BM25 Okapi**|**BM25 Plus**|**BM25 L**|
 |:---:|:---:|:---:|:---:|
@@ -13,12 +13,16 @@ BM25 알고리즘에 대한 자세한 내용은 [여기](https://github.com/jaey
 
 ## Installation
 
-코드를 내려 받으시고 rank_bm25 라이브러리만 설치하면 간단하게 설치 가능합니다.
+코드를 내려 받으시고 rank_bm25 패키지를 설치하시면 쉽게 사용 가능합니다.
 ```
 pip install rank_bm25
 ```
 
 ## Usage
+
+### Search
+
+### Evaluate
 
 ## Reference
 
