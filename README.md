@@ -8,7 +8,7 @@ BM25 알고리즘에 대한 자세한 내용은 [여기](https://github.com/jaey
 
 ||**BM25 Okapi**|**BM25 Plus**|**BM25 L**|
 |:---:|:---:|:---:|:---:|
-|MMR|0.802|**0.804**|0.799|
+|MRR|0.802|**0.804**|0.799|
 |Precision(k=10)|0.898|**0.898**|0.898|
 
 ## Installation
@@ -28,6 +28,6 @@ pip install rank_bm25
 
 [1] [Rank-BM25](https://github.com/dorianbrown/rank_bm25 "Rank-BM25")
 
-[2] [MMR](https://amitness.com/2020/08/information-retrieval-evaluation/ "MMR")
+[2] [MRR](https://amitness.com/2020/08/information-retrieval-evaluation/ "MRR")
 
 [2] [Precision-k](https://amitness.com/2020/08/information-retrieval-evaluation/ "Precision-k")
