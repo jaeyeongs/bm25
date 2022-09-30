@@ -4,7 +4,7 @@ IR 검색 알고리즘인 BM25를 활용하여 KorQuAD Dataset에서 주어진 �
 
 BM25 알고리즘에 대한 자세한 내용은 [여기](https://github.com/jaeyeongs/research-development/tree/main/NLP/IR/metric/BM25 "BM25")에서 확인 가능합니다.
   
-## Algorithm Performance
+## Performance
 
 ||**BM25 Okapi**|**BM25 Plus**|**BM25 L**|
 |:---:|:---:|:---:|:---:|
@@ -20,9 +20,26 @@ pip install rank_bm25
 
 ## Usage
 
+**modules** 디렉토리에 있는 각 알고리즘별 모듈을 사용하시면 됩니다. 
+
 ### Search
 
+```
+from rank_bm25 import BM25Okapi
+
+bm25okapi = BM25Okapi_module()
+bm25okapi.search("상고심 계류중에 사망한 영생교 교주의 사망원인은 무엇인가?"
+```
+
 ### Evaluate
+
+```
+from rank_bm25 import BM25Okapi
+
+bm25okapi = BM25Okapi_module()
+bm25okapi.evaluate(topk=10)
+```
+
 
 ## Reference
 
