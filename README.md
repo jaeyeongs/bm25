@@ -22,13 +22,19 @@ pip install rank_bm25
 
 **modules** 디렉토리에 있는 각 알고리즘별 모듈을 사용하시면 됩니다. 
 
+```
+python BM25Okapi_module.py 
+python BM25L_module.py
+python BM25Plus_module.py
+```
+
 ### Search
 
 ```
 from rank_bm25 import BM25Okapi
 
 bm25okapi = BM25Okapi_module()
-bm25okapi.search("상고심 계류중에 사망한 영생교 교주의 사망원인은 무엇인가?"
+bm25okapi.search("상고심 계류중에 사망한 영생교 교주의 사망원인은 무엇인가?")
 ```
 
 ### Evaluate
